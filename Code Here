@@ -39,25 +39,26 @@ PWM=2;
 PWM=3;}
 Wiper(PWM);
 }
-void Wiper(int a){
+void Wiper(int val){
 
-switch(a){
+switch(val){
 case 0:
     {
     printf("\n\nNo Wiper\n\n\n");
     break;}
 case 1:
     {
-    printf("\n\n25 percent of Wiper Speed\n\n\n");
+    printf("\n\n25 percent of Wiper Speed\n\n");
     break;}
 case 2:
     {
-    printf("\n\n50 percent of Wiper Speed\n\n\n");
+    printf("\n\n50 percent of Wiper Speed\n\n");
     break;}
 case 3:
     {
-    printf("\n\n75 percent of Wiper Speed\n\n\n");
-    break;}
+    printf("\n\n75 percent of Wiper Speed\n\n");
+    break;
+    }
 }
 
 }
